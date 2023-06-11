@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"D:/PracticeMonoGame/NewGame/Content/../assets/Barren.jpg","D:/PracticeMonoGame/NewGame/Content/bin/DesktopGL/Barren.xnb","TextureProcessor","Texture2DContent",154131,1048661,0,2353112
+"D:/PracticeMonoGame/NewGame/Content/../assets/Empty.png","D:/PracticeMonoGame/NewGame/Content/bin/DesktopGL/Empty.xnb","TextureProcessor","Texture2DContent",6562,1048661,0,0528583
+"D:/PracticeMonoGame/NewGame/Content/../assets/Fighter.png","D:/PracticeMonoGame/NewGame/Content/bin/DesktopGL/Fighter.xnb","TextureProcessor","Texture2DContent",7012,70613,0,0047707
+"D:/PracticeMonoGame/NewGame/Content/../assets/splash.png","D:/PracticeMonoGame/NewGame/Content/bin/DesktopGL/splash.xnb","TextureProcessor","Texture2DContent",202802,3686485,0,133663

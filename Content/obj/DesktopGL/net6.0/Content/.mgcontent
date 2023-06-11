@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/PracticeMonoGame/NewGame/Content/../assets/Barren.jpg</File>
+    <File>D:/PracticeMonoGame/NewGame/Content/../assets/Empty.png</File>
+    <File>D:/PracticeMonoGame/NewGame/Content/../assets/Fighter.png</File>
+    <File>D:/PracticeMonoGame/NewGame/Content/../assets/splash.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File>Barren.jpg</File>
+    <File>Empty.png</File>
+    <File>Fighter.png</File>
+    <File>splash.png</File>
+  </DestFiles>
+</SourceFileCollection>
