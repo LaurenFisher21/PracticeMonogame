@@ -8,11 +8,13 @@
     <File>D:/PracticeMonoGame/NewGame/Content/../assets/Empty.png</File>
     <File>D:/PracticeMonoGame/NewGame/Content/../assets/Fighter.png</File>
     <File>D:/PracticeMonoGame/NewGame/Content/../assets/splash.png</File>
+    <File>C:/Users/Lauren Fisher/Downloads/bullet.png</File>
   </SourceFiles>
   <DestFiles>
     <File>Barren.jpg</File>
     <File>Empty.png</File>
     <File>Fighter.png</File>
     <File>splash.png</File>
+    <File>bullet.png</File>
   </DestFiles>
 </SourceFileCollection>

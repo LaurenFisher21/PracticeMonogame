@@ -27,3 +27,4 @@ D:\PracticeMonoGame\NewGame\bin\Debug\net6.0\Content\Barren.xnb
 D:\PracticeMonoGame\NewGame\bin\Debug\net6.0\Content\Empty.xnb
 D:\PracticeMonoGame\NewGame\bin\Debug\net6.0\Content\Fighter.xnb
 D:\PracticeMonoGame\NewGame\bin\Debug\net6.0\Content\splash.xnb
+D:\PracticeMonoGame\NewGame\bin\Debug\net6.0\Content\bullet.xnb
