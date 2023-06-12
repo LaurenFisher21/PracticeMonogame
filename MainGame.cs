@@ -36,6 +36,7 @@ public class MainGame : Game
         _graphics.PreferredBackBufferWidth = DESIGNED_RESOLUTION_WIDTH;
         _graphics.PreferredBackBufferHeight = DESIGNED_RESOLUTION_HEIGHT;
         _graphics.IsFullScreen = false;
+        Window.Title = "Glock";
         _graphics.ApplyChanges();
 
         // TODO: Add your initialization logic here
