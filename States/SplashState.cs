@@ -1,10 +1,12 @@
 using MainGame.Objects;
 using MainGame.States.Base;
-
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Content;
-using Microsoft.Xna.Framework.Graphics;
+using MainGame.Enum;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework;
+using MainGame.Input;
+using MainGame.Input.Base;
+
+using System.Collections.Generic;
 
 namespace MainGame.States
 {
@@ -15,14 +17,20 @@ namespace MainGame.States
             AddGameObject(new SplashImage(LoadTexture("splash")));
         }
 
-        public override void HandleInput()
+        public override void HandleInput(GameTime gameTime)
         {
-            var state = Keyboard.GetState();
-
-            if (state.IsKeyDown(Keys.Enter))
+            InputManager.GetCommands(cmd =>
             {
-                SwitchState(new GameplayState());
-            }
+                if (cmd is SplashInputCommand.GameSelect)
+                {
+                    SwitchState(new GameplayState());
+                }
+            });
+        }
+
+        protected override void SetInputManager()
+        {
+            InputManager = new InputManager(new SplashInputMapper());
         }
     }
 }

@@ -3,7 +3,6 @@ using MainGame.Enum;
 using MainGame.States;
 using MainGame.States.Base;
 
-
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -95,7 +94,7 @@ public class MainGame : Game
 
         _currentGameState = gameState;
 
-        _currentGameState.Initialize(Content);
+        _currentGameState.Initialize(Content, _graphics.GraphicsDevice.Viewport.Width, _graphics.GraphicsDevice.Viewport.Height);
 
         _currentGameState.LoadContent();
 
@@ -120,7 +119,8 @@ public class MainGame : Game
 
     protected override void Update(GameTime gameTime)
     {
-        _currentGameState.HandleInput();
+        _currentGameState.HandleInput(gameTime);
+        _currentGameState.Update(gameTime);
 
         // TODO: Add your update logic here
 

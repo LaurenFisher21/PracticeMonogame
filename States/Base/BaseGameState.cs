@@ -4,7 +4,8 @@ using System.Linq;
 
 using MainGame.Enum;
 using MainGame.Objects.Base;
-
+using MainGame.Input.Base;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -15,26 +16,40 @@ namespace MainGame.States.Base
         private const string FallbackTexture = "Empty";
 
         private ContentManager _contentManager;
+        protected int _viewportHeight;
+        protected int _viewportWidth;
 
         private readonly List<BaseGameObject> _gameObjects = new List<BaseGameObject>();
 
-        public void Initialize(ContentManager contentManager)
+        protected InputManager InputManager {get; set;}
+
+        public void Initialize(ContentManager contentManager, int viewportWidth, int viewportHeight)
         {
             _contentManager = contentManager;
+            _viewportHeight = viewportHeight;
+            _viewportWidth = viewportWidth;
+
+            SetInputManager();
         }
 
         public abstract void LoadContent();
+        public virtual void Update(GameTime gameTime)
+        {
+
+        }
 
         public void UnloadContent ()
         {
             _contentManager.Unload();
         }
 
-        public abstract void HandleInput();
+        public abstract void HandleInput(GameTime gameTime);
 
         public event EventHandler<BaseGameState> OnStateSwitched;
 
         public event EventHandler<Events> OnEventNotification;
+
+        protected abstract void SetInputManager();
 
         protected Texture2D LoadTexture(string textureName)
         {
@@ -61,6 +76,11 @@ namespace MainGame.States.Base
         protected void AddGameObject(BaseGameObject gameObject)
         {
             _gameObjects.Add(gameObject);
+        }
+
+        protected void RemoveGameObject(BaseGameObject gameObject)
+        {
+            _gameObjects.Remove(gameObject);
         }
 
         public void Render(SpriteBatch spriteBatch)
