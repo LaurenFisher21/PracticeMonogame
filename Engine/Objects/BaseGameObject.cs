@@ -2,7 +2,7 @@ using MainGame.Enum;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace MainGame.Objects.Base
+namespace MainGame.Engine.Objects
 {
     public class BaseGameObject
     {

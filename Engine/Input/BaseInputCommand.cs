@@ -1,4 +1,4 @@
-namespace MainGame.Input.Base
+namespace MainGame.Engine.Input
 {
     public class BaseInputCommand
     {

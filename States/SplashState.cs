@@ -1,10 +1,10 @@
 using MainGame.Objects;
-using MainGame.States.Base;
+using MainGame.Engine.States;
 using MainGame.Enum;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework;
 using MainGame.Input;
-using MainGame.Input.Base;
+using MainGame.Engine.Input;
 
 using System.Collections.Generic;
 

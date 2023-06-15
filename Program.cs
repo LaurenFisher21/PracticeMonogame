@@ -1,3 +1,3 @@
 ﻿
-using var game = new NewGame.MainGame();
+using var game = new NewGame.Engine.MainGame();
 game.Run();

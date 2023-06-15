@@ -1,5 +1,5 @@
 using MainGame.Enum;
-using MainGame.Objects.Base;
+using MainGame.Engine.Objects;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System.Collections.Generic;

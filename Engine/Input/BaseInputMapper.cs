@@ -2,7 +2,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Input.Touch;
 using System.Collections.Generic;
 
-namespace MainGame.Input.Base
+namespace MainGame.Engine.Input
 {
     public class BaseInputMapper
     {

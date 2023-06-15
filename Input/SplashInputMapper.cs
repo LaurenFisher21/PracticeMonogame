@@ -1,4 +1,4 @@
-using MainGame.Input.Base;
+using MainGame.Engine.Input;
 using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 

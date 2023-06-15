@@ -1,4 +1,4 @@
-using MainGame.Objects.Base;
+using MainGame.Engine.Objects;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace MainGame.Objects

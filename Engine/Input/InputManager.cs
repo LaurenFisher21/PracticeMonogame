@@ -2,7 +2,7 @@ using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
 
-namespace MainGame.Input.Base
+namespace MainGame.Engine.Input
 {
     public class InputManager
     {

@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 
 using MainGame.Enum;
-using MainGame.Objects.Base;
-using MainGame.Input.Base;
+using MainGame.Engine.Objects;
+using MainGame.Engine.Input;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace MainGame.States.Base
+namespace MainGame.Engine.States
 {
     public abstract class BaseGameState
     {

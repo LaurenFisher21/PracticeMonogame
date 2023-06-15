@@ -1,4 +1,4 @@
-using MainGame.Input.Base;
+using MainGame.Engine.Input;
 
 namespace MainGame.Input
 {

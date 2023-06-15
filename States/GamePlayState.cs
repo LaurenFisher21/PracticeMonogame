@@ -1,8 +1,8 @@
 using MainGame.Enum;
 using MainGame.Objects;
-using MainGame.States.Base;
+using MainGame.Engine.States;
 using MainGame.Input;
-using MainGame.Input.Base;
+using MainGame.Engine.Input;
 
 using System;
 using System.Collections.Generic;
