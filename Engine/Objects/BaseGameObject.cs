@@ -1,6 +1,6 @@
-using MainGame.Enum;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using MainGame.Engine.States;
 
 namespace MainGame.Engine.Objects
 {
@@ -20,7 +20,7 @@ namespace MainGame.Engine.Objects
             set { _position = value; }
         }
 
-        public virtual void OnNotify(Events eventType)
+        public virtual void OnNotify(BaseGameStateEvent gameEvent)
         {
             
         }

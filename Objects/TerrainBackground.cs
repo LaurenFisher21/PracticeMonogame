@@ -1,8 +1,6 @@
-using MainGame.Enum;
 using MainGame.Engine.Objects;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using System.Collections.Generic;
 
 namespace MainGame.Objects
 {

@@ -1,7 +1,5 @@
-﻿using System;
-using MainGame.Enum;
+﻿using MainGame.Engine.States;
 using MainGame.States;
-using MainGame.Engine.States;
 
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
@@ -108,11 +106,11 @@ namespace NewGame.Engine
             _currentGameState.OnEventNotification += _currentGameState_OnEventNotification;
         }
 
-        private void _currentGameState_OnEventNotification(object sender, Events e)
+        private void _currentGameState_OnEventNotification(object sender, BaseGameStateEvent e)
         {
             switch (e)
             {
-                case Events.GAME_QUIT:
+                case BaseGameStateEvent.GameQuit _:
                     Exit();
                     break;
             }

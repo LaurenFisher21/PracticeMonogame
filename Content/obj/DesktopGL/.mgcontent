@@ -5,14 +5,24 @@
   <Config />
   <SourceFiles>
     <File>D:/PracticeMonoGame/NewGame/Content/../assets/Barren.jpg</File>
+    <File>D:/PracticeMonoGame/NewGame/Content/../assets/bullet.wav</File>
     <File>D:/PracticeMonoGame/NewGame/Content/../assets/Empty.png</File>
+    <File>D:/PracticeMonoGame/NewGame/Content/../assets/empty.wav</File>
     <File>D:/PracticeMonoGame/NewGame/Content/../assets/Fighter.png</File>
+    <File>D:/PracticeMonoGame/NewGame/Content/../assets/FutureAmbient_1.wav</File>
+    <File>D:/PracticeMonoGame/NewGame/Content/../assets/FutureAmbient_2.wav</File>
     <File>D:/PracticeMonoGame/NewGame/Content/../assets/splash.png</File>
+    <File>C:/Users/Lauren Fisher/Downloads/bullet.png</File>
   </SourceFiles>
   <DestFiles>
     <File>Barren.jpg</File>
+    <File>bullet.wav</File>
     <File>Empty.png</File>
+    <File>empty.wav</File>
     <File>Fighter.png</File>
+    <File>FutureAmbient_1.wav</File>
+    <File>FutureAmbient_2.wav</File>
     <File>splash.png</File>
+    <File>bullet.png</File>
   </DestFiles>
 </SourceFileCollection>

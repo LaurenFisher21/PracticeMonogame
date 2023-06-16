@@ -28,3 +28,6 @@ D:\PracticeMonoGame\NewGame\bin\Debug\net6.0\Content\Empty.xnb
 D:\PracticeMonoGame\NewGame\bin\Debug\net6.0\Content\Fighter.xnb
 D:\PracticeMonoGame\NewGame\bin\Debug\net6.0\Content\splash.xnb
 D:\PracticeMonoGame\NewGame\bin\Debug\net6.0\Content\bullet.xnb
+D:\PracticeMonoGame\NewGame\bin\Debug\net6.0\Content\FutureAmbient_1.xnb
+D:\PracticeMonoGame\NewGame\bin\Debug\net6.0\Content\FutureAmbient_2.xnb
+D:\PracticeMonoGame\NewGame\bin\Debug\net6.0\Content\bulletSound.xnb

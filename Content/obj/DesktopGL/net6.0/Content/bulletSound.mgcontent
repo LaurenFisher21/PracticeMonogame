@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>D:/PracticeMonoGame/NewGame/Content/../assets/bulletSound.wav</SourceFile>
+  <SourceTime>2023-06-15T20:57:09.0763414+02:00</SourceTime>
+  <DestFile>D:/PracticeMonoGame/NewGame/Content/bin/DesktopGL/Content/bulletSound.xnb</DestFile>
+  <DestTime>2023-06-16T23:01:08.4683783+02:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2022-07-26T13:44:56+02:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

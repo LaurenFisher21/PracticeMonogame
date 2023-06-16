@@ -1,1 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Lauren Fisher/Downloads/bullet.png","D:/PracticeMonoGame/NewGame/Content/bin/DesktopGL/Content/bullet.xnb","TextureProcessor","Texture2DContent",1046,3221,0,0031591
+"D:/PracticeMonoGame/NewGame/Content/../assets/bulletSound.wav","D:/PracticeMonoGame/NewGame/Content/bin/DesktopGL/Content/bulletSound.xnb","SoundEffectProcessor","SoundEffectContent",103676,103473,0,4446912
+"D:/PracticeMonoGame/NewGame/Content/../assets/Empty.png","D:/PracticeMonoGame/NewGame/Content/bin/DesktopGL/Content/Empty.xnb","TextureProcessor","Texture2DContent",6562,1048661,0,089189
+"D:/PracticeMonoGame/NewGame/Content/../assets/empty.wav","D:/PracticeMonoGame/NewGame/Content/bin/DesktopGL/Content/empty.xnb","SoundEffectProcessor","SoundEffectContent",82410,82369,0,2485907
